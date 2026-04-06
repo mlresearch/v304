@@ -57,14 +57,14 @@
                   task-specific contrastive prompts to extract harmful
                   directions, which exhibit suboptimal performance and can
                   degrade visual grounding performance. To address these
-                  limitations, we propose \\textit\{Sequence-Level Preference
-                  Optimization\} for VLM (\\textit\{SPO-VLM\}), a novel
+                  limitations, we propose \textit{Sequence-Level Preference
+                  Optimization} for VLM (\textit{SPO-VLM}), a novel
                   two-stage defense framework that combines activation-level
                   intervention with policy-level optimization to enhance model
-                  robustness. In \\textit\{Stage I\}, we compute adaptive
+                  robustness. In \textit{Stage I}, we compute adaptive
                   layer-specific steering vectors from diverse data sources,
                   enabling generalized suppression of harmful behaviors during
-                  inference. In \\textit\{Stage II\}, we refine these steering
+                  inference. In \textit{Stage II}, we refine these steering
                   vectors through a sequence-level preference optimization
                   process. This stage integrates automated toxicity
                   assessment, as well as visual-consistency rewards based on
@@ -79,8 +79,8 @@
                   visual understanding capabilities. We will release our code,
                   model weights, and evaluation toolkit to support
                   reproducibility and future research.
-                  \\textcolor\{red\}\{Warning: This paper may contain examples
-                  of offensive or harmful text and images.\}}
+                  \textcolor{red}{Warning: This paper may contain examples
+                  of offensive or harmful text and images.}}
 }
 
 @InProceedings{liu25,
@@ -121,21 +121,21 @@
   author =	 {Jiang, Xuanke and Hashima, Sherief and Hatano, Kohei and Takimoto, Eiji},
   pages =	 {49--64},
   abstract =	 {We consider a good arm identification problem in a stochastic bandit setting
-                  with multi-objectives, where each arm \$i\\in[K]\$ is
-                  associated with a distribution \$\\mathcal\{D\_\{i\}\}\$
-                  defined over \$\\mathbb\{R\}^M\$. For each round \$t\$, the
-                  player/algorithm pulls one arm \$i\_t\$ and receives a \$M\$
+                  with multi-objectives, where each arm $i\in[K]$ is
+                  associated with a distribution $\mathcal{D_{i}}$
+                  defined over $\mathbb{R}^M$. For each round $t$, the
+                  player/algorithm pulls one arm $i_t$ and receives a $M$
                   dimensional vector feedback sampled according to
-                  \$\\mathcal\{D\_\{i\_t\}\}\$.  The target is twofold, one is
+                  $\mathcal{D_{i_t}}$.  The target is twofold, one is
                   finding one arm whose means are larger than the predefined
-                  thresholds \$\\xi\_1,\\ldots,\\xi\_M\$ with a confidence
-                  bound \$\\delta\$ and an accuracy rate \$\\epsilon\$ with a
-                  bounded sample complexity, the other is output \$\\bot\$ to
+                  thresholds $\xi_1,\ldots,\xi_M$ with a confidence
+                  bound $\delta$ and an accuracy rate $\epsilon$ with a
+                  bounded sample complexity, the other is output $\bot$ to
                   indicate no such arm exists. We propose an algorithm with a
                   sample complexity bound. Our bound is the same as the one
-                  given in the previous work when \$M=1\$ and \$\\epsilon =
-                  0\$, and we give novel bounds for \$M > 1\$ and \$\\epsilon
-                  > 0\$. The proposed algorithm attains better numerical
+                  given in the previous work when $M=1$ and $\epsilon =
+                  0$, and we give novel bounds for $M > 1$ and $\epsilon
+                  > 0$. The proposed algorithm attains better numerical
                   performance than other baselines in the experiments on
                   synthetic and real datasets.}
 }
@@ -177,7 +177,7 @@
 }
 
 @InProceedings{chuang25,
-  title =	 {D\$^3\$epth: Distilling Diffusion Models For Efficient Depth Estimation
+  title =	 {D$^3$epth: Distilling Diffusion Models For Efficient Depth Estimation
                   Through A Two-Stage Approach},
   author =	 {Chuang, Bo-Chih and Lin, Wei-Tung and Chen, Shang-Fu and Hua, Kailung},
   pages =	 {81--96},
@@ -200,10 +200,10 @@
                   adaptively weighted using a dynamic task weighting strategy,
                   balancing structural consistency and boundary precision.
                   Specifically, we demonstrate that our two-stage distillation
-                  approach yields D\$^3\$epth, an efficient variant that
+                  approach yields D$^3$epth, an efficient variant that
                   achieves state-of-the-art results while significantly
                   reducing computational requirements. In parallel, our base
-                  model D\$^2\$epth, trained with enhanced pixel-space depth
+                  model D$^2$epth, trained with enhanced pixel-space depth
                   loss, also surpasses state-of-the-art performance across
                   various benchmarks.  Overall, these results deliver the
                   accuracy benefits of diffusion-based methods at the
@@ -344,7 +344,7 @@
                   rate — can be a more effective strategy. Our experiments
                   show that even a finite increase in batch size can provide
                   benefits for training neural networks. The code is available
-                  at https://github.com/iiduka-researches/qhm\_acml25.}
+                  at https://github.com/iiduka-researches/qhm_acml25.}
 }
 
 @InProceedings{tang25,
@@ -444,9 +444,9 @@
                   instance-independent  and instance-dependent regret lower
                   bounds for  learning the optimal play assignment.   We
                   introduce an efficient exploration algorithm  named
-                  \\texttt\{PC-CapUL\} for the capacity-scarce setting and
-                  \\texttt\{PC-CapUL\} matches  the regret lower bounds up to
-                  an acceptable constant. \\texttt\{PC-CapUL\} features a
+                  \texttt{PC-CapUL} for the capacity-scarce setting and
+                  \texttt{PC-CapUL} matches  the regret lower bounds up to
+                  an acceptable constant. \texttt{PC-CapUL} features a
                   novel index for  coordinating the exploration of multiple
                   plays.   Experiments show significant improvement  over
                   existing methods.}
@@ -463,9 +463,9 @@
                   batch size, not only with a constant learning rate but also
                   with a decaying learning rate, such as cosine annealing
                   decay and polynomial decay. The convergence rate improves
-                  from \$O(T^\{-1\}+C)\$ with a constant batch size to
-                  \$O(T^\{-1\})\$ with an increasing batch size, where \$T\$
-                  denotes the total number of iterations and \$C\$ is a
+                  from $O(T^{-1}+C)$ with a constant batch size to
+                  $O(T^{-1})$ with an increasing batch size, where $T$
+                  denotes the total number of iterations and $C$ is a
                   constant. Using principal component analysis and low-rank
                   matrix completion, we investigated, both theoretically and
                   numerically, how an increasing batch size affects
@@ -556,7 +556,7 @@
                   while also reducing computational cost. Python
                   implementations of the optimizers used in the numerical
                   experiments are available at
-                  https://github.com/iiduka-researches/NSHB\_increasing\_batchsize\_acml25/.}
+                  https://github.com/iiduka-researches/NSHB_increasing_batchsize_acml25/.}
 }
 
 @InProceedings{tsao25,
@@ -594,18 +594,18 @@
   author =	 {Prevost, Adrien and Mathieu, Timothée and Maillard, Odalric-Ambrym},
   pages =	 {319--334},
   abstract =	 {We study the non‐contextual multi‐armed bandit problem in a transfer learning
-                  setting: before any pulls, the learner is given \$N'\_k\$
-                  i.i.d.\\ samples from each source distribution \$\\nu'\_k\$,
-                  and the true target distributions \$\\nu\_k\$ lie within a
-                  known distance bound \$d\_k(\\nu\_k,\\nu'\_k)\\le L\_k\$.
+                  setting: before any pulls, the learner is given $N'_k$
+                  i.i.d.\ samples from each source distribution $\nu'_k$,
+                  and the true target distributions $\nu_k$ lie within a
+                  known distance bound $d_k(\nu_k,\nu'_k)\le L_k$.
                   In this framework, we first derive a problem‐dependent
                   asymptotic lower bound on cumulative regret that extends the
                   classical Lai–Robbins result to incorporate the transfer
-                  parameters \$(d\_k,L\_k,N'\_k)\$.  We then propose
-                  \\textsc\{KL-UCB-Transfer\}, a simple index policy that
+                  parameters $(d_k,L_k,N'_k)$.  We then propose
+                  \textsc{KL-UCB-Transfer}, a simple index policy that
                   matches this new bound in the Gaussian case.  Finally, we
                   validate our approach via simulations, showing that
-                  \\textsc\{KL-UCB-Transfer\} significantly outperforms the
+                  \textsc{KL-UCB-Transfer} significantly outperforms the
                   no‐prior baseline when source and target distributions are
                   sufficiently close.}
 }
@@ -630,13 +630,13 @@
                   experiments on advanced LLMs, revealing that Attn modules
                   play a substantial role in factual knowledge storage and
                   retrieval, especially in earlier layers.  Building on these
-                  insights, we propose \\textit\{IntAttn-Edit\}, a novel
+                  insights, we propose \textit{IntAttn-Edit}, a novel
                   method that extends the associative memory paradigm to
                   jointly update both MLP and Attn modules.  Our approach
                   employs a knowledge balancing strategy that proportionally
                   allocates update magnitudes based on each module’s measured
                   contribution to knowledge storage.  Extensive experiments on
-                  popular benchmarks demonstrate that \\textit\{IntAttn-Edit\}
+                  popular benchmarks demonstrate that \textit{IntAttn-Edit}
                   consistently achieves superior results over existing
                   methods, delivering higher edit success, improved
                   generalization, and robust knowledge preservation. Further
@@ -686,8 +686,8 @@
                   models often lack generalization upon facing with different
                   types and coding strength designs of image restoration, thus
                   limiting their practical application. In this paper, a novel
-                  approach called \{\\em dual-Channel Transformers and
-                  Multi-scale attention Prompt learning (CTMP)\} is introduced
+                  approach called {\em dual-Channel Transformers and
+                  Multi-scale attention Prompt learning (CTMP)} is introduced
                   to bridge the gap on blind image restoration. The
                   prompt-based learning approach is employed in the model to
                   address two key image restoration tasks: 1) compressed image
@@ -1145,7 +1145,7 @@
                   the transfer of channel-wise knowledge from teacher to
                   student. We combine these techniques with a traditional
                   detection loss to form a comprehensive loss function,
-                  balanced by a hyperparameter \$\\alpha\$. Experimental
+                  balanced by a hyperparameter $\alpha$. Experimental
                   results across various scenarios demonstrate that MSFAD
                   significantly improves detection accuracy while reducing
                   computational and storage costs. Our approach clearly
@@ -1162,18 +1162,18 @@
                   conditions such as light attenuation, scattering, and color
                   distortion, which severely degrade image quality and hinder
                   model performance. In this work, we propose
-                  \\textbf\{BARD-ERA\}, a unified framework that integrates
+                  \textbf{BARD-ERA}, a unified framework that integrates
                   three novel components to address these challenges. First,
-                  the \\textbf\{Boundary-Aware Refinement Decoder
-                  (BARDecoder)\} improves mask quality through progressive
+                  the \textbf{Boundary-Aware Refinement Decoder
+                  (BARDecoder)} improves mask quality through progressive
                   feature refinement and lightweight upsampling using a
                   Multi-Stage Gated Refinement Network and Depthwise Separable
-                  Upsampling. Second, the \\textbf\{Environment-Robust Adapter
-                  (ERA)\} enables efficient adaptation to underwater
+                  Upsampling. Second, the \textbf{Environment-Robust Adapter
+                  (ERA)} enables efficient adaptation to underwater
                   degradations by injecting environment-specific priors with
                   over 90\% fewer trainable parameters than full
-                  fine-tuning. Third, the \\textbf\{Boundary-Aware
-                  Cross-Entropy (BACE) loss\} enhances boundary supervision by
+                  fine-tuning. Third, the \textbf{Boundary-Aware
+                  Cross-Entropy (BACE) loss} enhances boundary supervision by
                   leveraging range-null space decomposition. Together, these
                   modules achieve state-of-the-art performance on the UIIS
                   dataset, surpassing Mask R-CNN by 3.4 mAP with Swin-B and
@@ -1199,21 +1199,21 @@
                   solution embeds imperceptible patterns in LLM outputs,
                   enabling model traceability and intellectual property
                   verification.  In this paper, we study the vulnerability of
-                  LLM service providers by introducing \$\\delta\$-Steal, a
+                  LLM service providers by introducing $\delta$-Steal, a
                   novel model stealing attack that bypasses the service
                   provider's watermark detectors while preserving the
-                  adversary's model utility.  \$\\delta\$-Steal injects noise
+                  adversary's model utility.  $\delta$-Steal injects noise
                   into the token embeddings of the adversary's model during
                   fine-tuning in a way that satisfies local differential
                   privacy (LDP) guarantees. The adversary queries the service
                   provider's model to collect outputs and form input-output
                   training pairs. By applying LDP-preserving noise to these
-                  pairs, \$\\delta\$-\\Steal obfuscates watermark signals,
+                  pairs, $\delta$-Steal obfuscates watermark signals,
                   making it difficult for the service provider to determine
                   whether its outputs were used, thereby preventing claims of
-                  model theft. Our experiments show that \$\\delta\$-Steal
+                  model theft. Our experiments show that $\delta$-Steal
                   with lightweight modifications achieves attack success rates
-                  of up to \$96.95\%\$ without  significantly compromising
+                  of up to $96.95\%$ without  significantly compromising
                   the adversary's model utility. The noise scale in LDP
                   controls the trade-off between attack effectiveness and
                   model utility. This poses a significant risk, as even robust
@@ -1356,7 +1356,7 @@
   title =	 {Reduced-rank Factorized Fourier Neural Operator},
   author =	 {Chou, Chieh-An and Chen, Lu-Hung},
   pages =	 {702--717},
-  abstract =	 {We present R\$^2\$-FFNO, a novel neural operator architecture designed to
+  abstract =	 {We present R$^2$-FFNO, a novel neural operator architecture designed to
                   address the overparameterization common in Factorized
                   Fourier Neural Operators (FFNO) through reduced-rank
                   factorization of spectral components. While neural operators
@@ -1365,7 +1365,7 @@
                   excessive number of parameters, which can lead to
                   overfitting and diminished generalization capabilities.
                   Inspired from reduced-rank learning techniques, the
-                  R\$^2\$-FFNO approach decomposes spectral kernels into
+                  R$^2$-FFNO approach decomposes spectral kernels into
                   lower-rank representations, enabling systematic control over
                   the model's capacity.  This low-rank factorization
                   facilitates a balance between the model's expressiveness and
@@ -1381,8 +1381,8 @@
                   spectral bias, thereby enhancing the model's capacity to
                   resolve fine-scale PDE dynamics. A comprehensive evaluation
                   on benchmark datasets confirms the efficacy of the
-                  R\$^2\$-FFNO. Compared to the original FFNO architecture,
-                  R\$^2\$-FFNO demonstrates significant error reductions:
+                  R$^2$-FFNO. Compared to the original FFNO architecture,
+                  R$^2$-FFNO demonstrates significant error reductions:
                   46.5\% reduction in the Navier-Stokes problem, 31.6\% in
                   the Kolmogorov Flow problem, and 34.7\% in the Darcy Flow
                   problem. The proposed method offers a principled framework
@@ -1442,7 +1442,7 @@
 }
 
 @InProceedings{cheng25,
-  title =	 {Mega-CE\$^2\$ : A Multimodal Heterogeneous Aggregation Framework for
+  title =	 {Mega-CE$^2$ : A Multimodal Heterogeneous Aggregation Framework for
                   End-Edge-Cloud Computing},
   author =	 {Cheng, Zinuo and Wang, Haodi and Bie, Rongfang},
   pages =	 {750--765},
@@ -1453,19 +1453,19 @@
                   existing studies reveal that most frameworks still struggle
                   with challenges such as computing resource allocation and
                   high end-to-end latency in EECC. To address these issues, we
-                  propose Mega-CE\$^2\$, a novel multi-modal heterogeneous
-                  aggregation framework. Mega-CE\$^2\$ establishes a
+                  propose Mega-CE$^2$, a novel multi-modal heterogeneous
+                  aggregation framework. Mega-CE$^2$ establishes a
                   closed-loop feedback mechanism from the bottom-up to the top
                   down through end-device data serialization, edge-server
                   model personalization, and cloud-based optimization. Notably
-                  Mega-CE\$^2\$ incorporates lightweight adapters for
+                  Mega-CE$^2$ incorporates lightweight adapters for
                   fine-tuning, enabling efficient deployment while preserving
                   local model personalization. These adapters, with fewer
                   parameters than the global model, optimize model parameters
                   during edge-to-cloud aggregation, thereby achieving both
                   lightweight and personalized capabilities. In experiments on
                   three open-source standard datasets, we show that the
-                  performance of Mega-CE\$^2\$ improves by 3\%–5\%, while
+                  performance of Mega-CE$^2$ improves by 3\%–5\%, while
                   maintaining scalability with lightweight and low-latency
                   characteristics.}
 }
@@ -1510,8 +1510,8 @@
   pages =	 {782--797},
   abstract =	 {To enable parameter-efficient fine-tuning of large language models (LLMs),
                   Low-Rank Adaptation (LoRA) reduces parameters by freezing
-                  pretrained weights \$W\_\{0\}\$ and approximating updates
-                  via low-rank matrices \$\\Delta W = BA\$. However, standard
+                  pretrained weights $W_{0}$ and approximating updates
+                  via low-rank matrices $\Delta W = BA$. However, standard
                   LoRA neglects the differential impact of low-rank matrix
                   components on model performance and suffers from slow
                   convergence due to random initialization. To address this,
@@ -1574,10 +1574,10 @@
                   models, while differential privacy ensures the protection of
                   individual information within these models by minimizing the
                   impact of any single data point. In this work, we propose an
-                  \$(\\epsilon,\\delta)\$-differential privacy algorithm to
+                  $(\epsilon,\delta)$-differential privacy algorithm to
                   solve the generalized eigenvalue problem (GEP). Our
                   algorithm gives better classification accuracy over existing
-                  methods and has the nearly optimal \$\\ell\_2\$-norm error
+                  methods and has the nearly optimal $\ell_2$-norm error
                   bounds in both low and high dimensions. Furthermore, our
                   algorithm guarantees convergence to the solution regardless
                   of the initial vector and this improves a previous method
@@ -1719,12 +1719,12 @@
                   orthogonal subspace projection, improving the robustness of
                   the student model.  We validate SparseSegNet across five
                   public skin lesion segmentation benchmarks---ISIC 2017, ISIC
-                  2018, PH\$^2\$, HAM10000, and Derm7pt ---under a unified
+                  2018, PH$^2$, HAM10000, and Derm7pt ---under a unified
                   preprocessing and training pipeline. SparseSegNet achieves
                   up to 0.91 Dice coefficient, 0.85 Intersection-over-Union
                   (IoU), and 38ms latency with only 7 million parameters,
                   outperforming recent compact models such as MobileSAM,
-                  CMUNeXt, and YOLOv8n-seg. Paired t-tests (\$p < 0.01\$)
+                  CMUNeXt, and YOLOv8n-seg. Paired t-tests ($p < 0.01$)
                   confirm the statistical significance of our improvements.
                   SparseSegNet thus presents a privacy-preserving,
                   boundary-aware solution for real-time skin lesion analysis
@@ -2270,7 +2270,7 @@
                   jointly addresses two critical aspects of decision-making:
                   maximizing expected reward and minimizing associated
                   uncertainty, quantified via the
-                  \\textit\{mean-variance\}(MV) criterion. Unlike traditional
+                  \textit{mean-variance}(MV) criterion. Unlike traditional
                   bandit formulations that focus solely on expected returns,
                   our objective is to efficiently and accurately identify the
                   Pareto-optimal set of arms that strikes the best trade-off
@@ -2314,7 +2314,7 @@
                   token distribution in the KV cache, which in turn allows for
                   a smaller footprint while maintaining the accuracy of the
                   model. Based on our results, KVCrush reduces LongBench KV
-                  Cache size by \$4\\times\$ with less than 1\% accuracy
+                  Cache size by $4\times$ with less than 1\% accuracy
                   drop and achieves state-of-the-art average accuracy with
                   minimal overhead, incurring less than 0.5\% total
                   inference latency. KVCrush not only outperforms
@@ -2393,7 +2393,7 @@
   author =	 {Xue, Yan and Wang, Ruibo and Cao, Xuefei and Yang, Jing and Li, Jihong},
   pages =	 {1246--1261},
   abstract =	 {Learning curves of classification metrics, including test error, precision
-                  (P),  recall (R), F\$\_1\$ score, with regard to training
+                  (P),  recall (R), F$_1$ score, with regard to training
                   set sizes are a recent hot topic  in developing an advanced
                   methodology of model selection and hyperparameter
                   optimization. The existing studies concentrated on
@@ -2402,7 +2402,7 @@
                   assumption. However, the normality assumption is
                   unreasonable for learning curves  of classification metrics
                   because the distributions of most classification metrics,
-                  such as P, R, and F\$\_1\$ score, are skewed, and interval
+                  such as P, R, and F$_1$ score, are skewed, and interval
                   estimations of  the metrics based on the normality
                   assumption may exceed [0,1]. In this study,  considering
                   most classification metrics are obtained from confusion
@@ -2417,13 +2417,13 @@
                   by transforming the functions of  a confusion matrix in
                   terms of the definition of the metric. Moreover,  reasonable
                   confidence bands of several popular metrics, including test
-                  error, P, R, and F\$\_1\$ score, are derived in this study
+                  error, P, R, and F$_1$ score, are derived in this study
                   based on the assumption of the  multi-nomial distribution of
                   a confusion matrix. Extensive experiments are  conducted on
                   several synthetic and real-world data sets coupled with
                   multiple  typical non-neural and neural classification
                   algorithms. Experimental results  illustrate the
                   improvements of the proposed learning curves of test error,
-                  P, R,  and F\$\_1\$ score and the superiority of the
+                  P, R,  and F$_1$ score and the superiority of the
                   confidence bands.}
 }

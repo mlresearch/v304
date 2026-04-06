@@ -304,7 +304,7 @@
   abstract =	 {Offline reinforcement learning (RL) trains policies from pre-collected data
                   without further environment interaction. However,
                   discrepancies between the dataset and true
-                  environment—particularly in the state transition kernel—can
+                  environment---particularly in the state transition kernel---can
                   degrade policy performance. To simulate environment shifts
                   without being overly conservative, we introduce a relaxed
                   state-adversarial method that perturbs the policy while
@@ -327,8 +327,8 @@
   abstract =	 {Momentum methods were originally introduced for their superiority to
                   stochastic gradient descent (SGD) in deterministic settings
                   with convex objective functions. However, despite their
-                  widespread application to deep neural networks — a
-                  representative case of stochastic nonconvex optimization —
+                  widespread application to deep neural networks --- a
+                  representative case of stochastic nonconvex optimization ---
                   the theoretical justification for their effectiveness in
                   such settings remains limited. Quasi-hyperbolic momentum
                   (QHM) is an algorithm that generalizes various momentum
@@ -340,8 +340,8 @@
                   decaying learning rate or an increasing batch size. Since a
                   decaying learning rate adversely affects non-asymptotic
                   convergence, we demonstrate that using mini-batch QHM with
-                  an increasing batch size — without decaying the learning
-                  rate — can be a more effective strategy. Our experiments
+                  an increasing batch size --- without decaying the learning
+                  rate --- can be a more effective strategy. Our experiments
                   show that even a finite increase in batch size can provide
                   benefits for training neural networks. The code is available
                   at https://github.com/iiduka-researches/qhm\_acml25.}
@@ -483,7 +483,7 @@
   pages =	 {255--270},
   abstract =	 {The extraction and effective utilization of judicial data remains a major
                   challenge in the legal domain. There is a growing mismatch
-                  between the public’s demand for accessible legal services
+                  between the public's demand for accessible legal services
                   and the high cost and complexity of legal consultations,
                   which also affects the efficiency of legal professionals
                   when handling case inquiries. Traditional keyword-based
@@ -583,7 +583,7 @@
                   improvement across five benchmark datasets in time-series
                   UDA. This research highlights the unique strengths of both
                   domains and marks a paradigm shift in UDA methods,
-                  showcasing TF-DAN’s robust performance in real-world
+                  showcasing TF-DAN's robust performance in real-world
                   applications. Codes can be found in the additional material
                   folder.}
 }
@@ -591,22 +591,22 @@
 @InProceedings{prevost25,
   title =	 {Asymptotically Optimal Problem-Dependent Bandit Policies for Transfer
                   Learning},
-  author =	 {Prevost, Adrien and Mathieu, Timothée and Maillard, Odalric-Ambrym},
+  author =	 {Prevost, Adrien and Mathieu, Timoth\'{e}e and Maillard, Odalric-Ambrym},
   pages =	 {319--334},
-  abstract =	 {We study the non‐contextual multi‐armed bandit problem in a transfer learning
+  abstract =	 {We study the non-contextual multi-armed bandit problem in a transfer learning
                   setting: before any pulls, the learner is given \$N'\_k\$
                   i.i.d.\\ samples from each source distribution \$\\nu'\_k\$,
                   and the true target distributions \$\\nu\_k\$ lie within a
                   known distance bound \$d\_k(\\nu\_k,\\nu'\_k)\\le L\_k\$.
-                  In this framework, we first derive a problem‐dependent
+                  In this framework, we first derive a problem-dependent
                   asymptotic lower bound on cumulative regret that extends the
-                  classical Lai–Robbins result to incorporate the transfer
+                  classical Lai--Robbins result to incorporate the transfer
                   parameters \$(d\_k,L\_k,N'\_k)\$.  We then propose
                   \\textsc\{KL-UCB-Transfer\}, a simple index policy that
                   matches this new bound in the Gaussian case.  Finally, we
                   validate our approach via simulations, showing that
                   \\textsc\{KL-UCB-Transfer\} significantly outperforms the
-                  no‐prior baseline when source and target distributions are
+                  no-prior baseline when source and target distributions are
                   sufficiently close.}
 }
 
@@ -622,7 +622,7 @@
                   Multi-Layer Perceptron (MLP) modules, which are commonly
                   identified as the primary repositories of factual
                   information. Other important components, such as attention
-                  (Attn) modules—one of the core modules in LLMs—are often
+                  (Attn) modules---one of the core modules in LLMs---are often
                   ignored during editing.  This biased allocation of updates
                   can leave residual outdated knowledge in the model and limit
                   the effectiveness of knowledge editing. In this paper, we
@@ -634,7 +634,7 @@
                   method that extends the associative memory paradigm to
                   jointly update both MLP and Attn modules.  Our approach
                   employs a knowledge balancing strategy that proportionally
-                  allocates update magnitudes based on each module’s measured
+                  allocates update magnitudes based on each module's measured
                   contribution to knowledge storage.  Extensive experiments on
                   popular benchmarks demonstrate that \\textit\{IntAttn-Edit\}
                   consistently achieves superior results over existing
@@ -1010,7 +1010,7 @@
                   challenges by leveraging the Probably Approximately Correct
                   (PAC) theory to establish a theoretically grounded framework
                   for determining sampling boundaries. We utilize Hoeffding's
-                  inequality and Vapnik–Chervonenkis (VC) dimension to set
+                  inequality and Vapnik--Chervonenkis (VC) dimension to set
                   upper boundaries for dataset adequacy in diverse scenarios:
                   no confounders, confounders with a finite hypothesis space,
                   and confounders with an infinite hypothesis space. Our work
@@ -1297,7 +1297,7 @@
                   auto-encoder as the generator. TAEGAN is the first to
                   incorporate self-supervised warmup training of generator
                   into tabular GANs. It enhances GAN stability and exposes the
-                  generator to richer information beyond the discriminator’s
+                  generator to richer information beyond the discriminator's
                   feedback. Additionally, we propose a novel sampling method
                   tailored for imbalanced or skewed data and an improved loss
                   function to better capture data distribution and
@@ -1398,18 +1398,18 @@
   author =	 {Kudo, Mikoto and Akimoto, Youhei},
   pages =	 {718--733},
   abstract =	 {We address two-player general-sum stochastic Stackelberg games (SSGs), where
-                  the leader’s policy is optimized considering the
+                  the leader's policy is optimized considering the
                   best-response follower whose policy is optimal for its
                   reward under the leader. Existing policy gradient and value
                   iteration approaches for SSGs do not guarantee monotone
-                  improvement in the leader’s policy under the best-response
+                  improvement in the leader's policy under the best-response
                   follower. Consequently, their performance is not guaranteed
                   when their limits are not stationary Stackelberg equilibria
                   (SSEs), which do not necessarily exist. In this paper, we
                   derive a policy improvement theorem for SSGs under the
                   best-response follower and propose a novel policy iteration
                   algorithm that guarantees monotone improvement in the
-                  leader’s performance.  Additionally, we introduce
+                  leader's performance.  Additionally, we introduce
                   Pareto-optimality as an extended optimality of the SSE and
                   prove that our method converges to the Pareto front when the
                   leader is myopic.}
@@ -1465,7 +1465,7 @@
                   during edge-to-cloud aggregation, thereby achieving both
                   lightweight and personalized capabilities. In experiments on
                   three open-source standard datasets, we show that the
-                  performance of Mega-CE\$^2\$ improves by 3\%–5\%, while
+                  performance of Mega-CE\$^2\$ improves by 3\%--5\%, while
                   maintaining scalability with lightweight and low-latency
                   characteristics.}
 }
@@ -1737,7 +1737,7 @@
   author =	 {Chen, Guanming and Shen, Lingzhi and Cai, Xiaohao and Razzak, Imran and
                   Jameel, Shoaib},
   pages =	 {910--925},
-  abstract =	 {Personality detection from text aims to infer an individual’s personality
+  abstract =	 {Personality detection from text aims to infer an individual's personality
                   traits based on linguistic patterns. However, existing
                   machine learning approaches often struggle to capture
                   contextual information spanning multiple posts and tend to
@@ -1865,7 +1865,7 @@
                   particularly partial fake audio, where real and synthetic
                   segments are seamlessly combined. This paper explores the
                   use of Spiking Neural Networks (SNNs) for fake and partial
-                  fake audio detection – an unexplored area. Taking advantage
+                  fake audio detection -- an unexplored area. Taking advantage
                   of the inherent energy efficiency and temporal processing
                   capabilities of SNNs, we propose novel SNN-based
                   architectures for both tasks. We perform comprehensive
@@ -2071,7 +2071,7 @@
                   often suffer from poor generalization and over-refusal
                   issues due to overly fixed optimization targets, which
                   significantly undermine the utility of jailbreak attempts by
-                  yielding generic denials (e.g., "Sorry, I can’t assist with
+                  yielding generic denials (e.g., "Sorry, I can't assist with
                   that") rather than harmful completions. These issues
                   fundamentally stem from the rigid exact match constraint in
                   their loss design. To address this, we propose SEMINAR, a
@@ -2082,11 +2082,11 @@
                   intent-consistent outputs rather than rigid templates by
                   introducing a non-exact match loss based on semantic
                   similarity. Furthermore, we mitigate the token shift
-                  problem—the generation of LLM highly depends on the
+                  problem---the generation of LLM highly depends on the
                   correctness of the first few tokens, but the loss is
                   averaged over the entire sequence, which leads to
                   insufficient attention paid to the early tokens in the
-                  optimization—by introducing a cosine decay scheduling
+                  optimization---by introducing a cosine decay scheduling
                   mechanism that emphasizes the early tokens in the sequence
                   into the optimization process. As a result, SEMINAR not only
                   enhances the diversity of affirmative responses generated by
@@ -2177,15 +2177,15 @@
                   cross-modal feature fusion, and memory fragmentation caused
                   by noisy pseudo-label propagation. To address these issues,
                   we propose Fusion-Injected Residual Memory (FIRM), a unified
-                  framework that integrates Vision–Semantic Prompt Fusion
+                  framework that integrates Vision--Semantic Prompt Fusion
                   (VSPF), which injects multi-scale textual cues derived from
                   CLIP and large language models into multiple layers of a
                   vision backbone for token-wise semantic alignment, and
                   Evolving Multi-view Cluster Memory (EMCM), which employs
-                  optimal transport–guided clustering and dynamic prototype
+                  optimal transport--guided clustering and dynamic prototype
                   maintenance to ensure long-term identity consistency. The
                   framework is optimized end-to-end using an optimal
-                  transport–weighted InfoNCE loss, a multi-layer alignment
+                  transport--weighted InfoNCE loss, a multi-layer alignment
                   regularizer, and geometric cluster regularization, all
                   without reliance on manual annotations. Extensive
                   experiments on benchmark VI-ReID datasets demonstrate that

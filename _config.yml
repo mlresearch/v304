@@ -1,0 +1,89 @@
+---
+booktitle: Proceedings of the 17th Asian Conference on Machine Learning
+shortname: ACML
+year: '2025'
+start: &1 2025-12-09
+end: 2025-12-12
+published: 2026-04-06
+volume: '304'
+layout: proceedings
+series: Proceedings of Machine Learning Research
+publisher: PMLR
+issn: 2640-3498
+id: ACML2025
+month: 0
+cycles: false
+bibtex_editor: Lee, Hung-yi and Liu, Tongliang
+editor:
+- given: Hung-yi
+  family: Lee
+- given: Tongliang
+  family: Liu
+title: Proceedings of Machine Learning Research
+description: |
+  Proceedings of the 17th Asian Conference on Machine Learning
+    Held in HNBK International Convention Center, Taipei, Taiwan on 09-12 December 2025
+
+  Published as Volume 304 by the Proceedings of Machine Learning Research on 06 April 2026.
+
+  Volume Edited by:
+    Hung-yi Lee
+    Tongliang Liu
+
+  Series Editors:
+    Neil D. Lawrence
+date_str: '09--12 Dec'
+url: https://proceedings.mlr.press
+author:
+  name: PMLR
+baseurl: "/v304"
+twitter_username: MLResearchPress
+github_username: mlresearch
+markdown: kramdown
+exclude:
+- README.md
+- Gemfile
+- ".gitignore"
+plugins:
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-remote-theme
+remote_theme: mlresearch/jekyll-theme
+style: pmlr
+permalink: "/:title.html"
+ghub:
+  edit: true
+  repository: v304
+display:
+  copy_button:
+    bibtex: true
+    endnote: true
+    apa: true
+  comments: false
+volume_type: Volume
+volume_dir: v304
+email: ''
+conference:
+  name: The 17th Asian Conference on Machine Learning
+  url: https://www.acml-conf.org/2025/
+  location: HNBK International Convention Center, Taipei, Taiwan
+  dates:
+  - *1
+  - 2025-12-10
+  - 2025-12-11
+  - 2025-12-12
+analytics:
+  google:
+    tracking_id: UA-92432422-1
+link_visibility:
+  openreview: true
+  pdf: true
+  supplementary: true
+  software: true
+  video: true
+  arxiv: true
+  doi: true
+  website: true
+orig_bibfile: proceedings_clean.bib
+# Site settings
+# Original source:  proceedings_clean.bib
